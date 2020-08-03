@@ -1,0 +1,32 @@
+<html>
+    <head>
+        <title>Week_0 JavaScript Assigment</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script type="text/javascript" src="main.js"></script>
+    </head>
+    <body>
+        <div>
+        	<p>
+        		<input id="input_message" type="text" placeholder="Message" />
+        	</p>
+        	<p>
+        		<input id="input_count" type="number" placeholder="Count" />
+        	</p>
+                <p>
+        		<input id="tc" type="text" placeholder="Text Color" />
+        	</p>
+                <p>
+        		<input id="bc" type="text" placeholder="BG color" />
+        	</p>
+        	<p>
+        		<button onclick="myFum()" id="button_print" type="button">PRINT</button>
+        	</p> 
+                <p> 
+                       <button onclick="document.getElementById('input_message').value = '',document.getElementById('input_count').value = '',document.getElementById('tc').value = '',document.getElementById('bc').value = '';">Clear</button>
+                </p>
+        </div>
+        <div id="contxt">
+        </div>
+    </body>
+</html>
